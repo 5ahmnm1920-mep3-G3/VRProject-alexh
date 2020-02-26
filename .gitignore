@@ -38,7 +38,8 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-  
+# Microsoft Windows 
+
 # Windows thumbnail cache files
 Thumbs.db
 Thumbs.db:encryptable
@@ -64,6 +65,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# MacOS
   
 # General
 .DS_Store

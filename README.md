@@ -1,10 +1,14 @@
-# Template Repository for Unity3D version 2019.1.14f1
+# Project title
 
 ### Project description: 
 Introduction/Project summary 
 
 ### Development platform: 
-(OS, Unity Version, Visual Studio Version, used SDKs)
+* OS: Windows 10 Version 1909
+* Engine: Unity 2019.1.14f1
+* IDE: Visual Studio Community 2019 Version 16.4.0
+* Scripting Runtime Version: .NET 4.x Equivalent
+* API Compatibility Level: .NET Standard 2.0
 
 ### Target platform: 
 WebGL, Mobile, VR Device incl. reference resolution 
@@ -25,4 +29,4 @@ incl. progress in percent
 
 ### Lessons Learned: 
 
-Copyright by you :)
+© by [Alexander Hoedlmoser](https://github.com/alexhoedlmoser/)
