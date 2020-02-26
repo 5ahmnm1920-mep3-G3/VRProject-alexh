@@ -1,7 +1,8 @@
 # Project title
 
 ### Project description: 
-Introduction/Project summary 
+The application is about a small puzzle or riddle about different animal species and their primary natural habitat. 
+The player is located in a small wooden room. In the middle of the room there is a floating world globe and a table with name tags on it. The 7 continents of the earth can be taken from the globe in form of a small platte. There are 7 different name tags and each of them has an animal written on them. On the walls of the room, there are 7 pictures of those animals. There are sockets under each picture where the player has to put something in. The player's goal is to match the correct name tag and the correct continent platte to each of the animals. The player is doing this by putting the objects into the corresponding socket.
 
 ### Development platform: 
 * OS: Windows 10 Version 1909
