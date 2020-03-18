@@ -14,7 +14,7 @@ The player is located in a small room. In the middle of the room there is a worl
   Africa: Rhino  
   Asia: Red Panda  
   Australia: Wallaby  
-  Antarctica:  Chinstrap pengiun
+  Antarctica:  Chinstrap penguin
   
 </details>
 
@@ -37,7 +37,7 @@ Greybox in Maya:
 <img src = "./Screenshots/greybox-in-maya.png" width = "500">
 </div>
 
-
+  
 Room in Unity:
 <div>
 <img src = "./Screenshots/animals-in-unity.png" width = "500">
