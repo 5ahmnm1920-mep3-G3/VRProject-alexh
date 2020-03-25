@@ -19,7 +19,7 @@ The player is located in a small room. In the middle of the room there is a worl
 </details>
 
 ### Additional Documentation
-[Documentation as of March 18, 2020](https://github.com/5ahmnm1920-mep3-G3/VRProject-alexh/blob/master/Documentation/VRProject-alexh-documentation-18-03-2020.pdf/)
+[Documentation as of March 25, 2020](https://github.com/5ahmnm1920-mep3-G3/VRProject-alexh/blob/master/Documentation/VRProject-alexh-documentation-25-03-2020.pdf/)
 
 ### Development platform: 
 * OS: Windows 10 Version 1909
@@ -51,7 +51,7 @@ For the best experience, the player needs a VR Device (Oculus Rift or HTC Vive).
 * 7 pictures of animals, which are used as textures in the game
 
 ### Project state: 
-15%
+20%
 
 ### Limitations: 
 
