@@ -4,21 +4,61 @@ using UnityEngine;
 
 public class PuzzleManager : MonoBehaviour
 {
-    public bool nametagSolved = false;
-    public bool continentSolved = false;
-    public bool puzzleSolved = false;
+    private bool nametagSolved = false;
+    private bool continentSolved = false;
 
-    public GameObject nametag;
-    public GameObject continent;
-    public Light[] lights;
+    [SerializeField] private GameObject nametag;
+    [SerializeField] private GameObject continent;
+    [SerializeField] private Light[] lights;
 
-    public Color32 standardColor;
-    public Color32 solvedColor;
+    [SerializeField] private Color32 standardColor;
+    [SerializeField] private Color32 solvedColor;
 
+    private string socket1 = "socket_europe";
+    private string socket2 = "socket_southamerica";
+    private string socket3 = "socket_africa";
+    private string socket4 = "socket_antarctica";
+    private string socket5 = "socket_australia";
+    private string socket6 = "socket_northamerica";
+    private string socket7 = "socket_asia";
+
+
+    private void SwitchBools(bool boolean)
+    {
+        if (gameObject.name == socket1)
+        {
+            GameManager.puzzle1Solved = boolean;
+        }
+        else if (gameObject.name == socket2)
+        {
+            GameManager.puzzle2Solved = boolean;
+        }
+        else if (gameObject.name == socket3)
+        {
+            GameManager.puzzle3Solved = boolean;
+        }
+        else if (gameObject.name == socket4)
+        {
+            GameManager.puzzle4Solved = boolean;
+        }
+        else if (gameObject.name == socket5)
+        {
+            GameManager.puzzle5Solved = boolean;
+        }
+        else if (gameObject.name == socket6)
+        {
+            GameManager.puzzle6Solved = boolean;
+        }
+        else if (gameObject.name == socket7)
+        {
+            GameManager.puzzle7Solved = boolean;
+        }
+
+    }
     private void SolvePuzzle()
     {
-        puzzleSolved = true;
-
+        SwitchBools(true);
+        
         foreach (Light light in lights)
         {
             light.color = solvedColor;
@@ -27,7 +67,7 @@ public class PuzzleManager : MonoBehaviour
 
     private void UnsolvePuzzle()
     {
-        puzzleSolved = false;
+        SwitchBools(false);
 
         foreach (Light light in lights)
         {
