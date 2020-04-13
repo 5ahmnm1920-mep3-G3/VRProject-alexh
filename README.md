@@ -51,7 +51,7 @@ For the best experience, the player needs a VR Device (Oculus Rift or HTC Vive).
 * 7 pictures of animals, which are used as textures in the game
 
 ### Project state: 
-20%
+80%
 
 ### Limitations: 
 
