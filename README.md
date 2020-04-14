@@ -2,7 +2,7 @@
 
 ### Project description: 
 The game consists of a small puzzle or riddle about different animal species and their primary natural habitat. 
-The player is located in a small room. In the middle of the room there is a world globe and a table with name tags on it. The 7 continents of the earth can be taken from the globe in the form of a small plate. There are 7 different name tags and each of them has an animal written on them. On the walls of the room, there are also 7 pictures of those animals. There are sockets under each picture. The player's goal is to match the correct name tag and the correct continent platte to each of the animals. The player is doing this by putting the objects onto the corresponding socket. As soon as the player has put both correct items under a picture, the light over that picture will turn green, so the player knows he or she is correct.\
+The player is located in a small room. In the middle of the room there is a world globe and a table with name tags on it. The 7 continents of the earth can be taken from the globe in the form of a small plate. There are 7 different name tags and each of them has an animal written on them. On the walls of the room, there are also 7 pictures of those animals. There are sockets under each picture. The player's goal is to match the correct name tag and the correct continent platte to each of the animals. The player is doing this by putting the objects onto the corresponding socket. As soon as the player has put both correct items under a picture, the light over that picture will turn green, so the player knows he or she is correct.
 
 <details>
   <summary>Spoiler warning!</summary>
@@ -32,25 +32,22 @@ The player is located in a small room. In the middle of the room there is a worl
 Virtual Reality with SteamVR (HTC Vive and Oculus Rift)
 
 ### Visuals: 
-Greybox in Maya:
+* Greybox in Maya:
 <div>
 <img src = "./Screenshots/greybox-in-maya.png" width = "500">
 </div>
-\
-\
-Room in Unity halfway through development:
+
+* Room in Unity halfway through development:
 <div>
 <img src = "./Screenshots/animals-in-unity.png" width = "500">
 </div>
-\
-\
-Final look of the Unity scene 1/2:
+
+* Final look of the Unity scene 1/2:
 <div>
 <img src = "./Screenshots/unity-finished-01.png" width = "500">
 </div>
-\
-\
-Final look of the Unity scene 2/2:
+
+* Final look of the Unity scene 2/2:
 <div>
 <img src = "./Screenshots/unity-finished-02.png" width = "500">
 </div>
