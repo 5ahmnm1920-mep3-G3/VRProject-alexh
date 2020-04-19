@@ -12,6 +12,9 @@ public class GameManager : MonoBehaviour
     public static bool puzzle4Solved = false;
     public static bool puzzle5Solved = false;
     public static bool puzzle6Solved = false;
+    public static bool gameWon = false;
+
+    private bool callOnce = false;
 
     [SerializeField] private GameObject winText;
 
@@ -24,7 +27,13 @@ public class GameManager : MonoBehaviour
     {
         float t = Mathf.PingPong(Time.time, duration) / duration;
 
-        if (puzzle1Solved == true && puzzle2Solved == true && puzzle3Solved == true && puzzle4Solved == true && puzzle5Solved == true && puzzle6Solved == true && puzzle7Solved == true)
+        if (puzzle1Solved == true && puzzle2Solved == true && puzzle3Solved == true && puzzle4Solved == true && puzzle5Solved == true && puzzle6Solved == true && puzzle7Solved == true && callOnce == false)
+        {
+            gameWon = true;
+            callOnce = true;
+        }
+
+        if (gameWon == true)
         {
             winText.SetActive(true);
             roomLight.color = Color.Lerp(winColor1, winColor2, t);

@@ -58,7 +58,7 @@ public class PuzzleManager : MonoBehaviour
     private void SolvePuzzle()
     {
         SwitchBools(true);
-        
+
         foreach (Light light in lights)
         {
             light.color = solvedColor;
@@ -77,45 +77,51 @@ public class PuzzleManager : MonoBehaviour
 
     public void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == nametag.name)
+       if(GameManager.gameWon == false)
         {
-            nametagSolved = true;
-            Debug.Log("nametag true");
-
-            if (continentSolved == true)
+            if (collision.gameObject.name == nametag.name)
             {
-                SolvePuzzle();
+                nametagSolved = true;
+                Debug.Log("nametag true");
+
+                if (continentSolved == true)
+                {
+                    SolvePuzzle();
+                }
             }
-        } 
 
-        if (collision.gameObject.name == continent.name)
-        {
-            continentSolved = true;
-            Debug.Log("continent true");
-
-            if (nametagSolved == true)
+            if (collision.gameObject.name == continent.name)
             {
-                SolvePuzzle();
+                continentSolved = true;
+                Debug.Log("continent true");
+
+                if (nametagSolved == true)
+                {
+                    SolvePuzzle();
+                }
             }
         }
     }
 
     private void OnCollisionExit(Collision collision)
     {
-        if (collision.gameObject.name == nametag.name)
+        if (GameManager.gameWon == false)
         {
-            nametagSolved = false;
-            Debug.Log("nametag false");
+            if (collision.gameObject.name == nametag.name)
+            {
+                nametagSolved = false;
+                Debug.Log("nametag false");
 
-            UnsolvePuzzle();
-        }
+                UnsolvePuzzle();
+            }
 
-        if (collision.gameObject.name == continent.name)
-        {
-            continentSolved = false;
-            Debug.Log("continent false");
+            if (collision.gameObject.name == continent.name)
+            {
+                continentSolved = false;
+                Debug.Log("continent false");
 
-            UnsolvePuzzle();
+                UnsolvePuzzle();
+            }
         }
     }
 }

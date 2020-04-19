@@ -519,7 +519,7 @@ MonoBehaviour:
   catchingSpeedThreshold: -1
   releaseVelocityStyle: 1
   releaseVelocityTimeOffset: -0.011
-  scaleReleaseVelocity: 1.1
+  scaleReleaseVelocity: 0.5
   scaleReleaseVelocityThreshold: -1
   scaleReleaseVelocityCurve:
     serializedVersion: 2
@@ -570,7 +570,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3625547280368986372}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 2
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -1293,7 +1293,7 @@ MonoBehaviour:
   catchingSpeedThreshold: -1
   releaseVelocityStyle: 1
   releaseVelocityTimeOffset: -0.011
-  scaleReleaseVelocity: 1.1
+  scaleReleaseVelocity: 0.5
   scaleReleaseVelocityThreshold: -1
   scaleReleaseVelocityCurve:
     serializedVersion: 2
@@ -1344,7 +1344,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5437372606284100545}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 2
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -1639,7 +1639,7 @@ MonoBehaviour:
   catchingSpeedThreshold: -1
   releaseVelocityStyle: 1
   releaseVelocityTimeOffset: -0.011
-  scaleReleaseVelocity: 1.1
+  scaleReleaseVelocity: 0.5
   scaleReleaseVelocityThreshold: -1
   scaleReleaseVelocityCurve:
     serializedVersion: 2
@@ -1690,7 +1690,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2386292362105144508}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 2
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -2698,7 +2698,7 @@ MonoBehaviour:
   catchingSpeedThreshold: -1
   releaseVelocityStyle: 1
   releaseVelocityTimeOffset: -0.011
-  scaleReleaseVelocity: 1.1
+  scaleReleaseVelocity: 0.5
   scaleReleaseVelocityThreshold: -1
   scaleReleaseVelocityCurve:
     serializedVersion: 2
@@ -2749,7 +2749,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5835987400028860501}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 2
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -4084,7 +4084,7 @@ MonoBehaviour:
   catchingSpeedThreshold: -1
   releaseVelocityStyle: 1
   releaseVelocityTimeOffset: -0.011
-  scaleReleaseVelocity: 1.1
+  scaleReleaseVelocity: 0.5
   scaleReleaseVelocityThreshold: -1
   scaleReleaseVelocityCurve:
     serializedVersion: 2
@@ -4135,7 +4135,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6267060713168765786}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 2
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -4775,7 +4775,7 @@ MonoBehaviour:
   catchingSpeedThreshold: -1
   releaseVelocityStyle: 1
   releaseVelocityTimeOffset: -0.011
-  scaleReleaseVelocity: 1.1
+  scaleReleaseVelocity: 0.5
   scaleReleaseVelocityThreshold: -1
   scaleReleaseVelocityCurve:
     serializedVersion: 2
@@ -4826,7 +4826,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7295326518205922194}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 2
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -5293,7 +5293,7 @@ MonoBehaviour:
   catchingSpeedThreshold: -1
   releaseVelocityStyle: 1
   releaseVelocityTimeOffset: -0.011
-  scaleReleaseVelocity: 1.1
+  scaleReleaseVelocity: 0.5
   scaleReleaseVelocityThreshold: -1
   scaleReleaseVelocityCurve:
     serializedVersion: 2
@@ -5344,7 +5344,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044301039127117232}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 2
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -6094,6 +6094,7 @@ GameObject:
   - component: {fileID: 781412615020754272}
   - component: {fileID: 781412615020754271}
   - component: {fileID: 781412615020754275}
+  - component: {fileID: 781412615020754276}
   m_Layer: 0
   m_Name: cont_australia
   m_TagString: Untagged
@@ -6118,7 +6119,7 @@ MonoBehaviour:
   catchingSpeedThreshold: -1
   releaseVelocityStyle: 1
   releaseVelocityTimeOffset: -0.011
-  scaleReleaseVelocity: 1.1
+  scaleReleaseVelocity: 0.5
   scaleReleaseVelocityThreshold: -1
   scaleReleaseVelocityCurve:
     serializedVersion: 2
@@ -6191,7 +6192,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781412615020754270}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -6277,6 +6278,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85de8866c01a8d247b21b4bfb865c7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &781412615020754276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781412615020754270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
 --- !u!23 &786543848231416803
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6445,6 +6461,7 @@ GameObject:
   - component: {fileID: 1124197009878754688}
   - component: {fileID: 1124197009878754687}
   - component: {fileID: 1124197009878754689}
+  - component: {fileID: 1124197009878754690}
   m_Layer: 0
   m_Name: cont_africa
   m_TagString: Untagged
@@ -6460,7 +6477,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124197009878754684}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -6499,7 +6516,7 @@ MonoBehaviour:
   catchingSpeedThreshold: -1
   releaseVelocityStyle: 1
   releaseVelocityTimeOffset: -0.011
-  scaleReleaseVelocity: 1.1
+  scaleReleaseVelocity: 0.5
   scaleReleaseVelocityThreshold: -1
   scaleReleaseVelocityCurve:
     serializedVersion: 2
@@ -6628,6 +6645,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85de8866c01a8d247b21b4bfb865c7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1124197009878754690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124197009878754684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
 --- !u!23 &1215977984560174493
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6803,6 +6835,7 @@ GameObject:
   - component: {fileID: 1491948901891851654}
   - component: {fileID: 1491948901891851653}
   - component: {fileID: 1491948901891851657}
+  - component: {fileID: 1491948901891851658}
   m_Layer: 0
   m_Name: cont_asia
   m_TagString: Untagged
@@ -6827,7 +6860,7 @@ MonoBehaviour:
   catchingSpeedThreshold: -1
   releaseVelocityStyle: 1
   releaseVelocityTimeOffset: -0.011
-  scaleReleaseVelocity: 1.1
+  scaleReleaseVelocity: 0.5
   scaleReleaseVelocityThreshold: -1
   scaleReleaseVelocityCurve:
     serializedVersion: 2
@@ -6911,7 +6944,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1491948901891851652}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -6997,6 +7030,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85de8866c01a8d247b21b4bfb865c7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1491948901891851658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491948901891851652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
 --- !u!4 &1504232704421136849
 Transform:
   m_ObjectHideFlags: 0
@@ -7214,6 +7262,7 @@ GameObject:
   - component: {fileID: 2017455814}
   - component: {fileID: 2017455815}
   - component: {fileID: 2017455817}
+  - component: {fileID: 2044301039127117233}
   m_Layer: 0
   m_Name: tag_asia
   m_TagString: Untagged
@@ -7221,6 +7270,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2044301039127117233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044301039127117232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
 --- !u!23 &2103062692986946133
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7326,6 +7390,7 @@ GameObject:
   - component: {fileID: 696312346}
   - component: {fileID: 696312347}
   - component: {fileID: 696312349}
+  - component: {fileID: 2386292362105144509}
   m_Layer: 0
   m_Name: tag_africa
   m_TagString: Untagged
@@ -7333,6 +7398,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2386292362105144509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2386292362105144508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
 --- !u!33 &2414440085360295876
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7463,6 +7543,7 @@ GameObject:
   - component: {fileID: 2913156254466189935}
   - component: {fileID: 2913156254466189934}
   - component: {fileID: 2913156254466189938}
+  - component: {fileID: 2913156254466189939}
   m_Layer: 0
   m_Name: cont_antarctica
   m_TagString: Untagged
@@ -7487,7 +7568,7 @@ MonoBehaviour:
   catchingSpeedThreshold: -1
   releaseVelocityStyle: 1
   releaseVelocityTimeOffset: -0.011
-  scaleReleaseVelocity: 1.1
+  scaleReleaseVelocity: 0.5
   scaleReleaseVelocityThreshold: -1
   scaleReleaseVelocityCurve:
     serializedVersion: 2
@@ -7560,7 +7641,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2913156254466189933}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -7646,6 +7727,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85de8866c01a8d247b21b4bfb865c7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2913156254466189939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2913156254466189933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
 --- !u!4 &2996129954909116725
 Transform:
   m_ObjectHideFlags: 0
@@ -7853,6 +7949,7 @@ GameObject:
   - component: {fileID: 131847632}
   - component: {fileID: 131847633}
   - component: {fileID: 131847635}
+  - component: {fileID: 3625547280368986373}
   m_Layer: 0
   m_Name: tag_australia
   m_TagString: Untagged
@@ -7860,6 +7957,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3625547280368986373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3625547280368986372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
 --- !u!4 &3668776769172154592
 Transform:
   m_ObjectHideFlags: 0
@@ -8433,6 +8545,7 @@ GameObject:
   - component: {fileID: 4661524116791798138}
   - component: {fileID: 4661524116791798137}
   - component: {fileID: 4661524116791798141}
+  - component: {fileID: 4661524116791798142}
   m_Layer: 0
   m_Name: cont_southamerica
   m_TagString: Untagged
@@ -8457,7 +8570,7 @@ MonoBehaviour:
   catchingSpeedThreshold: -1
   releaseVelocityStyle: 1
   releaseVelocityTimeOffset: -0.011
-  scaleReleaseVelocity: 1.1
+  scaleReleaseVelocity: 0.5
   scaleReleaseVelocityThreshold: -1
   scaleReleaseVelocityCurve:
     serializedVersion: 2
@@ -8530,7 +8643,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4661524116791798136}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -8616,6 +8729,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85de8866c01a8d247b21b4bfb865c7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4661524116791798142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4661524116791798136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
 --- !u!4 &4738623826109555766
 Transform:
   m_ObjectHideFlags: 0
@@ -8902,6 +9030,7 @@ GameObject:
   - component: {fileID: 551440509}
   - component: {fileID: 551440510}
   - component: {fileID: 551440512}
+  - component: {fileID: 5437372606284100546}
   m_Layer: 0
   m_Name: tag_europe
   m_TagString: Untagged
@@ -8909,6 +9038,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5437372606284100546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5437372606284100545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
 --- !u!33 &5652475597734664814
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8933,6 +9077,7 @@ GameObject:
   - component: {fileID: 5690238427663340303}
   - component: {fileID: 5690238427663340302}
   - component: {fileID: 5690238427663340306}
+  - component: {fileID: 5690238427663340307}
   m_Layer: 0
   m_Name: cont_europe
   m_TagString: Untagged
@@ -8957,7 +9102,7 @@ MonoBehaviour:
   catchingSpeedThreshold: -1
   releaseVelocityStyle: 1
   releaseVelocityTimeOffset: -0.011
-  scaleReleaseVelocity: 1.1
+  scaleReleaseVelocity: 0.5
   scaleReleaseVelocityThreshold: -1
   scaleReleaseVelocityCurve:
     serializedVersion: 2
@@ -9030,7 +9175,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5690238427663340301}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -9116,6 +9261,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85de8866c01a8d247b21b4bfb865c7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5690238427663340307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5690238427663340301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
 --- !u!23 &5816834254510086280
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9168,6 +9328,7 @@ GameObject:
   - component: {fileID: 1003694304}
   - component: {fileID: 1003694301}
   - component: {fileID: 1003694303}
+  - component: {fileID: 5835987400028860502}
   m_Layer: 0
   m_Name: tag_southamerica
   m_TagString: Untagged
@@ -9175,6 +9336,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5835987400028860502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5835987400028860501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
 --- !u!33 &5897030213049345427
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9380,6 +9556,7 @@ GameObject:
   - component: {fileID: 6111679018852818808}
   - component: {fileID: 6111679018852818807}
   - component: {fileID: 6111679018852818811}
+  - component: {fileID: 6111679018852818812}
   m_Layer: 0
   m_Name: cont_northamerica
   m_TagString: Untagged
@@ -9404,7 +9581,7 @@ MonoBehaviour:
   catchingSpeedThreshold: -1
   releaseVelocityStyle: 1
   releaseVelocityTimeOffset: -0.011
-  scaleReleaseVelocity: 1.1
+  scaleReleaseVelocity: 0.5
   scaleReleaseVelocityThreshold: -1
   scaleReleaseVelocityCurve:
     serializedVersion: 2
@@ -9477,7 +9654,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6111679018852818806}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -9563,6 +9740,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85de8866c01a8d247b21b4bfb865c7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6111679018852818812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6111679018852818806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
 --- !u!33 &6209075984298219673
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9642,6 +9834,7 @@ GameObject:
   - component: {fileID: 1361600529}
   - component: {fileID: 1361600530}
   - component: {fileID: 1361600532}
+  - component: {fileID: 6267060713168765787}
   m_Layer: 0
   m_Name: tag_northamerica
   m_TagString: Untagged
@@ -9649,6 +9842,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6267060713168765787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6267060713168765786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
 --- !u!4 &6288225507123252791
 Transform:
   m_ObjectHideFlags: 0
@@ -10098,6 +10306,7 @@ GameObject:
   - component: {fileID: 1711668003}
   - component: {fileID: 1711668004}
   - component: {fileID: 1711668006}
+  - component: {fileID: 7295326518205922195}
   m_Layer: 0
   m_Name: tag_antactic
   m_TagString: Untagged
@@ -10105,6 +10314,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7295326518205922195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7295326518205922194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
 --- !u!1 &7310120858845038987
 GameObject:
   m_ObjectHideFlags: 0
