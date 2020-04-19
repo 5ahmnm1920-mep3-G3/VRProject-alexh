@@ -19,7 +19,7 @@ The player is located in a small room. In the middle of the room there is a worl
 </details>
 
 ### Additional Documentation
-[Documentation as of March 25, 2020](https://github.com/5ahmnm1920-mep3-G3/VRProject-alexh/blob/master/Documentation/VRProject-alexh-documentation-25-03-2020.pdf/)
+[Documentation as of April 19, 2020](https://github.com/5ahmnm1920-mep3-G3/VRProject-alexh/blob/master/Documentation/VRProject-alexh-documentation-19-04-2020.pdf/)
 
 ### Development platform: 
 * OS: Windows 10 Version 1909
@@ -57,9 +57,10 @@ For the best experience, the player needs a VR Device (Oculus Rift or HTC Vive).
 
 ### Third party material: 
 * 7 pictures of animals, which are used as textures in the game
+* SteamVR Plugin, downloaded from the Asset Store
 
 ### Project state: 
-95%
+100%
 
 ### Limitations: 
 none
@@ -69,4 +70,4 @@ none
 * Using the new Unity Post Processing Stack (V2)
 
 
-© by [Alexander Hoedlmoser](https://github.com/alexhoedlmoser/)
+© by [Alexander Hödlmoser](https://github.com/alexhoedlmoser/)
