@@ -23,6 +23,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Color32 winColor2;
     private float duration = 2.0f;
 
+    [SerializeField] private AudioSource audioSrc;
+    [SerializeField] private AudioClip winSound;
+
     void Update()
     {
         float t = Mathf.PingPong(Time.time, duration) / duration;
@@ -30,12 +33,14 @@ public class GameManager : MonoBehaviour
         if (puzzle1Solved == true && puzzle2Solved == true && puzzle3Solved == true && puzzle4Solved == true && puzzle5Solved == true && puzzle6Solved == true && puzzle7Solved == true && callOnce == false)
         {
             gameWon = true;
+            winText.SetActive(true);
+            audioSrc.PlayOneShot(winSound, 0.75f);
             callOnce = true;
         }
 
         if (gameWon == true)
         {
-            winText.SetActive(true);
+            
             roomLight.color = Color.Lerp(winColor1, winColor2, t);
         }
     }

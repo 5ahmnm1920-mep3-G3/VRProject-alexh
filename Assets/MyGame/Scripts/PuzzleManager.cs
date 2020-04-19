@@ -22,6 +22,8 @@ public class PuzzleManager : MonoBehaviour
     private string socket6 = "socket_northamerica";
     private string socket7 = "socket_asia";
 
+    [SerializeField] private AudioSource audioSrc;
+    [SerializeField] private AudioClip solveSound;
 
     private void SwitchBools(bool boolean)
     {
@@ -63,6 +65,8 @@ public class PuzzleManager : MonoBehaviour
         {
             light.color = solvedColor;
         }
+
+        audioSrc.PlayOneShot(solveSound, 0.5f);
     }
 
     private void UnsolvePuzzle()
