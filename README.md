@@ -57,6 +57,8 @@ For the best experience, the player needs a VR Device (Oculus Rift or HTC Vive).
 
 ### Third party material: 
 * 7 pictures of animals, which are used as textures in the game
+* ["Correct sound effect"](https://www.youtube.com/watch?v=cPiqofExFk0/)
+* ["Victory sound effect"](https://www.youtube.com/watch?v=xP1b_uRx5x4/)
 * SteamVR Plugin, downloaded from the Asset Store
 
 ### Project state: 
@@ -68,6 +70,7 @@ none
 ### Lessons Learned:
 * Changing the color of light and also making a light fade from one color to another through a script
 * Using the new Unity Post Processing Stack (V2)
+* Playing AudioClips through a script
 
 
 © by [Alexander Hödlmoser](https://github.com/alexhoedlmoser/)
